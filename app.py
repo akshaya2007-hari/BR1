@@ -14,7 +14,7 @@ st.write("Polynomial Regression (Distance to MRT vs House Price)")
 # -----------------------------
 # Upload Dataset
 # -----------------------------
-uploaded_file = st.file_uploader("Upload Real estate CSV file", type=["csv"])
+uploaded_file = st.file_uploader("Real estate.csv", type=["csv"])
 
 if uploaded_file is not None:
     # Load dataset
